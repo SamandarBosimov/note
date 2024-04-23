@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="bosh">
+            <h1>Notes</h1>
+
+        
+    <form action="" id="form">
+        <input type="text" id="name" placeholder="Enter the reference">
+
+        <div class="container">
+            <button id="btn" type="submit">Yuborish</button>
+        </div>
+    </form>
+<p id="error" style="color: red;"></p>
+        <p id="success" style="color: green;"></p>
+        </div>  
+        
+    </header>
+    
+
+    
+    <div id="data" class="jadval">
+        
+    </div>
+
+
+    <div class="edit__modal" id="editModal" style="display: none">
+        <div class="modal__content">
+            <div class="modal__close">
+                <i class="fa fa-times"></i>
+            </div>
+            <p id="error__edit" style="color: red;"></p>
+            <p id="success__edit" style="color: green;"></p>
+            <section class="edit__todo__form">
+                <form>
+                    <input type="text" class="edit__todo__input" id="editInput" />
+                    <button type="submit" class="button__edit__todo">Save</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
